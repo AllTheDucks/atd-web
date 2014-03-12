@@ -24,3 +24,7 @@
         position: absolute;
         right: 0;
         bottom: 0px; } }
+
+section.tab-bar-section.middle h1 a {
+    color: white;
+ }
