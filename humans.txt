@@ -1,8 +1,13 @@
-/* Foundation was made by ZURB, an interaction design and design strategy firm in Campbell, CA */
-/* zurb.com */
-/* humanstxt.org */
+/* alltheducks.com */
+
+/* TEAM */
+Author: Wiley Fuller
+Twitter: @wileyfuller
+
+Author: Shane Argo
+Twitter: @shane_argo
 
 /* SITE */
   Standards: HTML5, CSS3
-  Components: jQuery, Orbit, Reveal
-  Software: Sublime, Git, Sass
+  Components: Zurb Foundation
+  Software: Git, IntelliJ IDEA
