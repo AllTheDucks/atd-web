@@ -9,7 +9,7 @@
     position: absolute;
     right: 100px;
     top: 5em;
-    -webkit-filter: drop-shadow(0 16px 10px #333);}
+}
 @media only screen and (max-width: 40em) {
     .hp-banner .floatingduck img {
         width: 100%;

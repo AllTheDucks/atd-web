@@ -1001,7 +1001,12 @@ meta.foundation-mq-topbar {
   line-height: 45px;
   position: relative;
   background: #333333;
-  margin-bottom: 0; }
+  margin-bottom: 0; 
+
+  box-shadow: 0 0 3px rgba(153,153,153,0.75);
+  border-bottom: 1px solid silver;
+
+}
   .top-bar ul {
     margin-bottom: 0;
     list-style: none; }
@@ -1033,7 +1038,8 @@ meta.foundation-mq-topbar {
       margin: 0; }
       .top-bar .name h1 a {
         font-weight: normal;
-        color: white;
+	font-family: 'Lato', sans-serif;
+        color: black;
         width: 50%;
         display: block;
         padding: 0 15px; }
@@ -1200,7 +1206,7 @@ meta.foundation-mq-topbar {
 
 @media only screen and (min-width: 40.063em) {
   .top-bar {
-    background: #333333;
+    background: #DADADA;
     *zoom: 1;
     overflow: visible; }
     .top-bar:before, .top-bar:after {
@@ -1246,7 +1252,7 @@ meta.foundation-mq-topbar {
     .top-bar-section li:not(.has-form) a:not(.button) {
       padding: 0 15px;
       line-height: 45px;
-      background: #333333; }
+      background: #DADADA; }
       .top-bar-section li:not(.has-form) a:not(.button):hover {
         background: #272727; }
     .top-bar-section li.active:not(.has-form) a:not(.button) {
