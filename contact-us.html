@@ -109,7 +109,7 @@
 
         contactformpanel.style.display = 'none';    
         messageProgress.style.display = 'block';
-        $.post("http://127.0.0.1:8001/excusemeihaveaquestion", data, 
+        $.post("https://services.alltheducks.com/excusemeihaveaquestion", data, 
             function(data) {
                 if (data.status == 'SUCCESS') {
                     messageProgress.style.display = 'none';
